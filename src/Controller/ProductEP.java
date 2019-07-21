@@ -3,7 +3,7 @@ package Controller;
 import Entity.Product;
 import Service.Frequency;
 import Service.Search;
-import Utility.readFromFile;
+import Utility.ReadFromFile;
 
 import java.util.List;
 import java.util.Map;
@@ -16,7 +16,7 @@ public class ProductEP {
 
     ProductEP(String fileLocation) {
         this.fileLocation = fileLocation;
-        this.fileContents = readFromFile.parseFile(fileLocation);
+        this.fileContents = ReadFromFile.parseFile(fileLocation);
     }
 
     //endpoint for autocomplete

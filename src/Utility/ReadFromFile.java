@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * the following class reads the .tsv file and adds it to the a list
  */
-public class readFromFile {
+public class ReadFromFile {
 
     /**
      * function that reads the content of the .tsv file
