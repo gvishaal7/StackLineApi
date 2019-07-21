@@ -1,9 +1,9 @@
 # Stackline accessment 
 
-## Endpoints for multiple product related functions
+### Endpoints for multiple product related functions
 
-### Since I don't want to store the values read from the file in a DB or read the file everytime a functionality is called, I am reading it once and then passing it as a parameter to the respective method calls.
-### I am not familiar with the latest Java Spring Boot as my previous experience with REST APIs were with JAVA Servlets (which is outdated), so I was not able to write the "controller" aspect of the application but am willing to learn as time progresses
+Since I don't want to store the values read from the file in a DB or read the file everytime a functionality is called, I am reading it once and then passing it as a parameter to the respective method calls.
+I am not familiar with the latest Java Spring Boot as my previous experience with REST APIs were with JAVA Servlets (which is outdated), so I was not able to write the "controller" aspect of the application but am willing to learn as time progresses
 
 ### Endpoint 1: autocomplete
 #### Definition: Implement an autocomplete endpoint that can provide suggestions for product name, category, and brand given a prefix.
